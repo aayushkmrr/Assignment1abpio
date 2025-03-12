@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Assignment1.Application": {
+      "path": "src/Assignment1.Application/Assignment1.Application.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.Application.Tests": {
+      "path": "test/Assignment1.Application.Tests/Assignment1.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Assignment1.Domain.Shared": {
+      "path": "src/Assignment1.Domain.Shared/Assignment1.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.Application.Contracts": {
+      "path": "src/Assignment1.Application.Contracts/Assignment1.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.HttpApi": {
+      "path": "src/Assignment1.HttpApi/Assignment1.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.HttpApi.Client": {
+      "path": "src/Assignment1.HttpApi.Client/Assignment1.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.EntityFrameworkCore.Tests": {
+      "path": "test/Assignment1.EntityFrameworkCore.Tests/Assignment1.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Assignment1.EntityFrameworkCore": {
+      "path": "src/Assignment1.EntityFrameworkCore/Assignment1.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.TestBase": {
+      "path": "test/Assignment1.TestBase/Assignment1.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Assignment1.Domain.Tests": {
+      "path": "test/Assignment1.Domain.Tests/Assignment1.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Assignment1.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Assignment1.HttpApi.Client.ConsoleTestApp/Assignment1.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Assignment1.DbMigrator": {
+      "path": "src/Assignment1.DbMigrator/Assignment1.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.HttpApi.Host": {
+      "path": "src/Assignment1.HttpApi.Host/Assignment1.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Assignment1.Domain": {
+      "path": "src/Assignment1.Domain/Assignment1.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
