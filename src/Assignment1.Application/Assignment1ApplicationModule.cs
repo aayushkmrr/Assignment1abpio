@@ -8,7 +8,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.Data;
 using Volo.Abp;
-using Assignment1.seed;
+
 
 namespace Assignment1;
 
@@ -32,12 +32,7 @@ public class Assignment1ApplicationModule : AbpModule
 
         });
 
-         public override void OnApplicationInitialization(ApplicationInitializationContext context)
-    {
-        // Seed data after the application starts
-        var dataSeeder = context.ServiceProvider.GetRequiredService<MyDataSeeder>();
-        dataSeeder.SeedAsync().Wait();  // Ensure the seeding happens synchronously at startup
-    }
+   
 }
 }
 

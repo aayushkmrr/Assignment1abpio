@@ -364,15 +364,6 @@ public class OpenIddictDataSeedContributor : IDataSeedContributor, ITransientDep
     }
 }
 
-public class MyPermissionDefinitionProvider : PermissionDefinitionProvider
-{
-    public override void Define(IPermissionDefinitionContext context)
-    {
-        var myGroup = context.AddGroup("MyApp");
 
-        myGroup.AddPermission("MyApp.Dashboard.View", "Permission to view dashboard");
-        myGroup.AddPermission("MyApp.Users.Manage", "Permission to manage users");
-    }
-}
 
 

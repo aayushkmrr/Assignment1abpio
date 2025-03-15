@@ -7,7 +7,7 @@ using Volo.Abp.Domain.Entities.Auditing;
 
 namespace Assignment1.Entities
 {
-    public class Employee:AuditedAggregateRoot<Guid>
+    public class Employee : AuditedAggregateRoot<Guid>
     {
         public required string EmployeeName { get; set; }
 

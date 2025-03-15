@@ -8,12 +8,14 @@ using Volo.Abp.Domain.Repositories;
 using Assignment1.Entities;
 using Volo.Abp;
 using System.Collections;
-using Microsoft.EntityFrameworkCore; // For ToListAsync and other EF Core extensions
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization; // For ToListAsync and other EF Core extensions
 
 
 
 namespace Assignment1.Services
 {
+    [Authorize]
     public class EmployeeService : ApplicationService
     {
         private readonly IRepository<Employee, Guid> _employeeservice;
@@ -24,6 +26,7 @@ namespace Assignment1.Services
             _employeeservice = employeeservice;
         }
 
+        [Authorize("HR_employee_Create")]
         public async Task<Employee> CreateAsync(string name,Guid DId)
         {
 

@@ -14,7 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="9.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization.Policy" Version="2.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="9.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Volo.Abp.Identity.Application.Contracts" Version="9.1.0" />
+    <PackageReference Include="Volo.Abp.Identity.Domain" Version="9.1.0" />
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="9.1.0" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="9.1.0" />
     <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="9.1.0" />
     <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="9.1.0" />
